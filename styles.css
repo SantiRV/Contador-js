@@ -1,0 +1,30 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    font-size: 5em;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+}
